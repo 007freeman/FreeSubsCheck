@@ -1,7 +1,51 @@
 proxies:
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_1|933KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_1|3.0MB/s"
+    port: 7754
+    server: efan.dnsefan04881.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    network: tcp
+  - alpn:
+      - ''
+    alterId: '0'
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_2|3.9MB/s"
+    network: tcp
+    port: 7754
+    server: vm51544542.dns8656815.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_3|3.2MB/s"
+    port: 7754
+    server: vm51544542.dns8656815.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_4|8.3MB/s"
+    port: 7754
+    server: vm51544542.dns8656815.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_5|4.1MB/s"
     network: ws
     port: 20010
     server: 76c3.earthdraft.onezz.top
@@ -11,21 +55,11 @@ proxies:
       headers:
         Host: ithome.com
       path: /chat
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_2|4.4MB/s"
-    port: 7754
-    server: vm51544542.dns8656815.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    network: tcp
   - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_3|4.5MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_6|4.1MB/s"
     network: tcp
     port: 7754
     server: vm51544542.dns8656815.com
@@ -33,13 +67,35 @@ proxies:
     tls: false
     type: vmess
     udp: true
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_7|2.2MB/s"
+    network: tcp
+    port: 7754
+    server: efan.dnsefan04881.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
     uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
     xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_8|563KB/s"
+    port: 7754
+    server: efan.dnsefan04881.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
+    network: tcp
   - alpn:
       - ''
     alterId: '0'
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_4|5.1MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_9|4.2MB/s"
     network: tcp
     port: 7754
     server: efan.dnsefan04881.com
@@ -49,47 +105,9 @@ proxies:
     udp: true
     uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
     xudp: true
-  - alpn:
-      - ''
-    alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_5|2.8MB/s"
-    network: tcp
-    port: 7754
-    server: vm51544542.dns8656815.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-    xudp: true
-  - name: "\U0001F1F9\U0001F1FCTW_1|3.4MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 23445
-    server: t3cache.71edgeiqiyi.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: t3cache.71edgeiqiyi.com
-  - cipher: aes-256-gcm
-    delay: 761
-    name: "\U0001F1F8\U0001F1ECSG_1|1.7MB/s"
-    password: 7GaQIM4q84sLnhqQJ8mLqb0KbdDmBWxKPaXa59tFXtg
-    port: 8388
-    server: 165.22.111.31
-    type: ss
-    udp: true
-  - name: "\U0001F1F9\U0001F1FCTW_2|2.6MB/s"
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    sni: twmoon1-cdn-route.couldflare-cdn.com
   - down: ''
     fingerprint: ''
-    name: "\U0001F1F9\U0001F1FCTW_3|5.0MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_1|4.2MB/s"
     obfs: ''
     obfs-password: ''
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -99,33 +117,50 @@ proxies:
     sni: vpn-tw-001.fastervpn.world
     type: hysteria2
     up: ''
-  - name: "\U0001F1F9\U0001F1FCTW_4|2.9MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 22443
-    server: t4cache.71edgeiqiyi.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: t4cache.71edgeiqiyi.com
-  - name: "\U0001F1F9\U0001F1FCTW_5|2.7MB/s"
-    password: exaxgqkKkd0TAMrCxeonWg==
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-  - name: "\U0001F1EF\U0001F1F5JP_1|4.7MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 40443
-    server: jbU654714155239871.j4cdn.cdnxiaohongshu.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: jbU654714155239871.j4cdn.cdnxiaohongshu.com
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_6|1.7MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_1|721KB/s"
+    network: ws
+    port: 16618
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_2|2.8MB/s"
+    network: ws
+    port: 16616
+    server: planb.mojcn.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_3|1.5MB/s"
+    network: ws
+    port: 16616
+    server: t.cnmjcn.cyou
+    type: vmess
+    udp: true
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_10|1.4MB/s"
     network: ws
     port: 16622
     server: m.cnmjin.net
@@ -137,10 +172,226 @@ proxies:
       headers:
         Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
       path: /
+  - name: "\U0001F1F9\U0001F1FCTW_4|3.3MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
+    port: 23445
+    server: t3cache.71edgeiqiyi.com
+    tls: true
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: t3cache.71edgeiqiyi.com
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_11|1.7MB/s"
+    network: ws
+    port: 16622
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_12|674KB/s"
+    network: ws
+    port: 16632
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1FA\U0001F1F8US_1|974KB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-005.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-005.fastervpn.world
+    type: hysteria2
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_1|631KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 152.53.236.205
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_13|3.4MB/s"
+    network: ws
+    port: 16622
+    server: planb.mojcn.com
+    type: vmess
+    udp: true
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1FA\U0001F1F8US_2|1.1MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-017.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-017.fastervpn.world
+    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_2|2.1MB/s"
+    network: ws
+    port: 16618
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_5|515KB/s"
+    network: ws
+    port: 16616
+    server: m.cnmjin.net
+    type: vmess
+    udp: true
+    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    ws-opts:
+      headers:
+        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+      path: /
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_14|3.4MB/s"
+    network: ws
+    port: 16622
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 881da2de-238e-425e-a7e7-389f4842e545
+    ws-opts:
+      headers:
+        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_15|4.4MB/s"
+    network: ws
+    port: 16632
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 7927975e-9616-412b-b508-983ab960377d
+    ws-opts:
+      headers:
+        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_3|3.4MB/s"
+    network: ws
+    port: 16618
+    server: t.cnmjcn.cyou
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 302457f5-6848-4e2b-be16-193131ab6374
+    ws-opts:
+      headers:
+        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alpn:
+      - h3
+    congestion-controller: bbr
+    name: "\U0001F1EC\U0001F1E7GB_1|2.7MB/s"
+    password: strong-secret-pass-777
+    port: 50043
+    server: 45.140.167.209
+    skip-cert-verify: true
+    type: tuic
+    udp-relay-mode: native
+    uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
+    version: 5
+  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    name: "\U0001F1EC\U0001F1E7GB_2|2.5MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-uk-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-uk-002.fastervpn.world
+    type: hysteria2
+    udp: true
+  - name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-fr-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-fr-001.fastervpn.world
+    type: hysteria2
+  - name: "\U0001F1EC\U0001F1E7GB_3|2.5MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-uk-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-uk-001.fastervpn.world
+    tfo: false
+    type: hysteria2
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8US_3|1.4MB/s"
+    port: 443
+    reality-opts:
+      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
+      short-id: "d1f93724859d75ac"
+    server: pl2-gws4.onnstreaming.ru
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
+    network: tcp
+    servername: pl2-gws4.onnstreaming.ru
+  - name: "\U0001F1EC\U0001F1E7GB_4|2.5MB/s"
+    obfs: salamander
+    obfs-password: cry_me_a_r1ver_2026
+    password: strong-secret-pass-777
+    port: 444
+    server: 45.140.167.209
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    type: hysteria2
   - ech-opts:
       enable: true
       query-server-name: encryptedsni.com
-    name: "\U0001F1F0\U0001F1F7KR_1|2.6MB/s"
+    name: "\U0001F1F0\U0001F1F7KR_1|3.0MB/s"
     network: ws
     port: 11001
     server: 210.96.92.11
@@ -159,28 +410,40 @@ proxies:
     servername: ynwta9.api-edge.fgfw.qzz.io
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_7|942KB/s"
+    name: "\U0001F1ED\U0001F1F0HK_16|4.8MB/s"
     network: ws
     port: 16632
-    server: t.cnmjcn.cyou
+    server: m.cnmjin.net
     skip-cert-verify: false
     tls: false
     type: vmess
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
+    udp: true
+    uuid: 881da2de-238e-425e-a7e7-389f4842e545
     ws-opts:
       headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
+        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
       path: /
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1E8\U0001F1E6CA_1|2.2MB/s"
+    xudp: true
+  - http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F9\U0001F1F7TR_1|2.3MB/s"
+    network: tcp
+    port: 64534
+    server: srv18.datatowers.net
+    type: vless
+    udp: true
+    uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+    xudp: true
+  - name: "\U0001F1FA\U0001F1F8US_4|2.0MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-ca-002.fastervpn.world
+    server: vpn-us-002.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-ca-002.fastervpn.world
+    sni: vpn-us-002.fastervpn.world
     type: hysteria2
-    udp: true
-  - name: "\U0001F1ED\U0001F1F0HK_8|1.9MB/s"
+  - name: "\U0001F1ED\U0001F1F0HK_17|1.3MB/s"
     obfs: salamander
     obfs-password: YmGRdMZ74sEC91FN
     password: de8e0342-ea12-4f9d-bc2a-e62409e1913f
@@ -192,433 +455,35 @@ proxies:
     udp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_9|2.2MB/s"
-    network: ws
-    port: 16622
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - multiplexing: MULTIPLEXING_LOW
-    name: "\U0001F1FA\U0001F1F8US_1|1.3MB/s"
-    password: dongtaiwang.com
-    port: 33990
-    server: 157.254.223.48
-    transport: TCP
-    type: mieru
-    username: dongtaiwang.com
-  - ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1EF\U0001F1F5JP_2|1.6MB/s"
-    network: ws
-    port: 16957
-    server: 150.230.214.172
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: ynwta9.api-edge.fgfw.qzz.io
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: ynwta9.api-edge.fgfw.qzz.io
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_10|3.3MB/s"
-    network: tcp
-    port: 7754
-    server: efan.dnsefan04881.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_11|2.5MB/s"
-    port: 7754
-    server: vm51544542.dns8656815.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-    network: tcp
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_12|2.1MB/s"
-    port: 7754
-    server: efan.dnsefan04881.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 7cd96dbe-ecec-4937-9e05-87ab70af2f30
-    network: tcp
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_13|3.0MB/s"
-    port: 7754
-    server: efan.dnsefan04881.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-    network: tcp
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_2|1005KB/s"
-    network: ws
-    port: 16618
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_2|2.5MB/s"
+    country: "\U0001F1EC\U0001F1E7GB"
+    delay: 1003
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1FA\U0001F1F8US_5|2.1MB/s"
     network: tcp
     port: 180
-    server: 82.198.246.233
-    skip-cert-verify: false
-    tls: false
+    server: 82.198.246.250
+    skip-cert-verify: true
     type: vmess
-    udp: true
     uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_6|658KB/s"
-    network: ws
-    port: 16616
-    server: t.cnmjcn.cyou
-    type: vmess
-    udp: true
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - name: "\U0001F1EB\U0001F1F7FR_1|2.5MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-fr-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-fr-001.fastervpn.world
-    type: hysteria2
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_7|604KB/s"
-    network: ws
-    port: 16616
-    server: m.cnmjin.net
-    type: vmess
-    udp: true
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_2|606KB/s"
-    network: ws
-    password: '1234567890'
-    port: 25448
-    server: 220.87.185.18
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/58.0.3029.110 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_3|744KB/s"
-    network: tcp
-    port: 180
-    server: 82.198.246.214
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-    xudp: true
-  - name: "\U0001F1FA\U0001F1F8US_4|2.2MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-002.fastervpn.world
-    type: hysteria2
-  - name: "\U0001F1E9\U0001F1EADE_1|574KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 77.239.127.77
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: kfm-bn0.pages.dev
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F9\U0001F1FCTW_8|3.0MB/s"
-    network: ws
-    port: 8443
-    server: 140.235.39.161
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: s3vz.user-service.chinav.indevs.in
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: s3vz.user-service.chinav.indevs.in
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_5|2.0MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-017.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-017.fastervpn.world
-    type: hysteria2
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_2|938KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 152.53.236.205
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
   - cipher: aes-256-cfb
     country: "\U0001F3C1 ZZ"
     delay: 453
-    name: "\U0001F1FB\U0001F1F3VN_1|534KB/s"
+    name: "\U0001F1FB\U0001F1F3VN_1|906KB/s"
     password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
     port: 38388
     server: 103.186.154.28
     type: ss
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_3|519KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 144.31.138.127
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/41.0.2272.104 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
   - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1FA\U0001F1F8US_6|2.4MB/s"
+    name: "\U0001F1E8\U0001F1E6CA_1|2.5MB/s"
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
-    server: vpn-us-005.fastervpn.world
+    server: vpn-ca-002.fastervpn.world
     skip-cert-verify: true
-    sni: vpn-us-005.fastervpn.world
+    sni: vpn-ca-002.fastervpn.world
     type: hysteria2
-  - ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1FA\U0001F1F8US_7|2.0MB/s"
-    network: ws
-    port: 443
-    server: 172.208.36.45
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
     udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      early-data-header-name: Sec-WebSocket-Protocol
-      headers:
-        Host: ynwta9.api-edge.fgfw.qzz.io
-      max-early-data: 2560
-      path: /danfeng
-    servername: ynwta9.api-edge.fgfw.qzz.io
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 924
-    name: "\U0001F1FB\U0001F1F3VN_2|991KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.42
-    type: ss
-  - client-fingerprint: random
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FB\U0001F1F3VN_3|4.7MB/s"
-    network: tcp
-    port: 443
-    server: s226.okgg.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-    xudp: true
-    servername: u710947ua6bas226.okgg.top
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 1128
-    name: "\U0001F1FB\U0001F1F3VN_4|676KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.213
-    type: ss
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: '1000'
-    name: "\U0001F1E9\U0001F1EADE_4|2.4MB/s"
-    port: 54177
-    protocol: udp
-    server: 5.83.129.90
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: '500'
-  - name: "\U0001F1F9\U0001F1FCTW_9|3.6MB/s"
-    password: mrwdfNTD8M79LCukCieldrqZWqs=
-    port: 1443
-    server: twmoon1-cdn-route.couldflare-cdn.com
-    skip-cert-verify: true
-    sni: twmoon1-cdn-route.couldflare-cdn.com
-    tls: true
-    type: http
-    username: mrwdfNTD8M79LCukCieldrqZWqs=
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F3\U0001F1F1NL_1|2.3MB/s"
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    port: 8080
-    server: 82.38.31.99
-    type: ss
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_3|2.3MB/s"
-    network: ws
-    port: 16618
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_10|3.1MB/s"
-    network: ws
-    port: 16616
-    server: planb.mojcn.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_3|5.1MB/s"
-    network: ws
-    port: 16617
-    server: planb.mojcn.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
-  - encryption: none
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F8\U0001F1E8SC_1|2.0MB/s"
-    network: tcp
-    port: 443
-    server: srv162.towersflowerss.com
-    type: vless
-    udp: true
-    uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-    xudp: true
-  - client-fingerprint: random
-    encryption: none
-    flow: xtls-rprx-vision
-    name: "\U0001F1FB\U0001F1F3VN_5|4.5MB/s"
-    network: tcp
-    port: 443
-    server: s228.okgg.top
-    tls: true
-    type: vless
-    udp: true
-    uuid: 424e7cc4-df34-3518-9c7b-401db4ece90a
-    xudp: true
-    servername: u710947u6deds228.okgg.top
-  - http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F9\U0001F1F7TR_1|2.5MB/s"
-    network: tcp
-    port: 64534
-    server: srv18.datatowers.net
-    type: vless
-    udp: true
-    uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-    xudp: true
-  - name: "\U0001F1EF\U0001F1F5JP_4|1.5MB/s"
+  - name: "\U0001F1EF\U0001F1F5JP_1|861KB/s"
     password: f8eca8df-a1a5-4918-a194-d34112a3673f
     port: 443
     server: jdataU654714155239871.jcdn.cdnxiaohongshu.com
@@ -626,45 +491,11 @@ proxies:
     type: http
     username: f8eca8df-a1a5-4918-a194-d34112a3673f
     sni: jdataU654714155239871.jcdn.cdnxiaohongshu.com
-  - name: "\U0001F1F8\U0001F1ECSG_4|1.1MB/s"
-    network: ws
-    port: 65000
-    server: srv120.towersflowerss.com
-    type: vless
-    udp: true
-    uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
-    ws-opts:
-      headers:
-        Host: srv120.towersflowerss.com
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-          Chrome/57.0.2987.133 Safari/537.36
-      path: /
-    xudp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_6|680KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.237
-    type: ss
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_14|5.4MB/s"
-    network: ws
-    port: 16622
-    server: planb.mojcn.com
-    type: vmess
-    udp: true
-    uuid: 91f3e053-2caf-4d7d-a2ea-55fec9a19441
-    ws-opts:
-      headers:
-        Host: 11a79962aeff6caf4f270aa607818974.mobgslb.tbcache.com
-      path: /
   - alterId: '0'
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_15|4.9MB/s"
+    name: "\U0001F1ED\U0001F1F0HK_18|5.7MB/s"
     network: ws
-    port: 16632
+    port: 16622
     server: planb.mojcn.com
     skip-cert-verify: false
     tls: false
@@ -676,491 +507,22 @@ proxies:
         Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
       path: /
     xudp: true
-  - cipher: chacha20-ietf-poly1305
-    delay: 1909
-    name: "\U0001F1EF\U0001F1F5JP_5|5.4MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.microsoft.io:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.j6.gladns.com
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    delay: 512
-    name: "\U0001F1F9\U0001F1FCTW_11|3.4MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.epicgames.com:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.k4.gladns.com
-    type: ss
-    udp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1FA\U0001F1F8US_8|2.5MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.microsoft.is:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.q8.gladns.com
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 840
-    name: "\U0001F1FB\U0001F1F3VN_7|520KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.232
-    type: ss
-  - cipher: aes-256-cfb
-    country: "\U0001F3C1 ZZ"
-    delay: 2755
-    name: "\U0001F1FB\U0001F1F3VN_8|697KB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.136
-    type: ss
   - alterId: 0
     cipher: auto
-    country: "\U0001F1F0\U0001F1F7KR"
-    delay: 1199
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1F0\U0001F1F7KR_3|2.6MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_6|1.2MB/s"
     network: ws
-    port: 80
-    server: kr02.a0a.xyz
-    skip-cert-verify: true
-    type: vmess
-    uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-    ws-opts:
-      headers:
-        HOST: kr02.a0a.xyz
-        Host: kr02.a0a.xyz
-      path: /%2Fcctv13.m3u8
-    servername: kr02.a0a.xyz
-  - name: "\U0001F1FA\U0001F1F8US_9|1.4MB/s"
-    password: f8eca8df-a1a5-4918-a194-d34112a3673f
-    port: 443
-    server: u9node.cdn.mssstatic.com
-    tls: true
-    type: http
-    username: f8eca8df-a1a5-4918-a194-d34112a3673f
-    sni: u9node.cdn.mssstatic.com
-  - alterId: 0
-    cipher: auto
-    country: "\U0001F1EC\U0001F1E7GB"
-    delay: 1003
-    h2-opts: {}
-    http-opts: {}
-    name: "\U0001F1FA\U0001F1F8US_10|522KB/s"
-    network: tcp
-    port: 180
-    server: 82.198.246.250
-    skip-cert-verify: true
-    type: vmess
-    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  - cipher: chacha20-ietf-poly1305
-    delay: 1407
-    name: "\U0001F1FA\U0001F1F8US_11|2.1MB/s"
-    password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-    plugin: obfs
-    plugin-opts:
-      host: '403880e.default.microsoft.lu:164892'
-      mode: tls
-    port: 2377
-    server: 403880e.h4.gladns.com
-    type: ss
-    udp: true
-  - cipher: aes-256-cfb
-    name: "\U0001F1FB\U0001F1F3VN_9|1.1MB/s"
-    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-    port: 38388
-    server: 103.186.155.129
-    type: ss
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1EB\U0001F1F7FR_2|2.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: nUl4-UbSlrf8sCY4QNCKF3dMmgWLWJbgeziVqwfklhU
-      short-id: "ad3c6641d540b4e1"
-    server: 51.158.62.94
-    tls: true
-    type: vless
-    udp: true
-    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
-    xudp: true
-    servername: www.laposte.fr
-  - auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    name: "\U0001F1EC\U0001F1E7GB_1|2.6MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-uk-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-uk-002.fastervpn.world
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F7\U0001F1FARU_1|1.7MB/s"
-    network: ws
-    port: 8443
-    server: 31.130.149.85
-    tls: true
-    type: vless
-    udp: true
-    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-    ws-opts:
-      headers:
-        Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /
-    xudp: true
-    servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
-  - name: "\U0001F1EC\U0001F1E7GB_2|2.6MB/s"
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-uk-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-uk-001.fastervpn.world
-    tfo: false
-    type: hysteria2
-  - name: "\U0001F1EB\U0001F1F7FR_3|3.0MB/s"
-    password: dongtaiwang.com
-    port: 40022
-    server: 163.172.113.118
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    tfo: false
-    type: hysteria2
-  - name: "\U0001F1EC\U0001F1E7GB_3|2.5MB/s"
-    obfs: salamander
-    obfs-password: cry_me_a_r1ver_2026
-    password: strong-secret-pass-777
-    port: 444
-    server: 45.140.167.209
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
-  - alpn:
-      - h3
-    congestion-controller: bbr
-    name: "\U0001F1EC\U0001F1E7GB_4|666KB/s"
-    password: strong-secret-pass-777
-    port: 50043
-    server: 45.140.167.209
-    skip-cert-verify: true
-    type: tuic
-    udp-relay-mode: native
-    uuid: e033ef6e-ab4b-47d4-a523-ff568d2c8dbb
-    version: 5
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: "\U0001F1FA\U0001F1F8US_12|1.7MB/s"
-    port: 443
-    reality-opts:
-      public-key: fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ
-      short-id: "d1f93724859d75ac"
-    server: pl2-gws4.onnstreaming.ru
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 19ef3d02-1c55-4fec-9794-6def8cbac396
-    network: tcp
-    servername: pl2-gws4.onnstreaming.ru
-  - alpn:
-      - h2
-    client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: /sequre/grpc/
-    name: "\U0001F1F5\U0001F1F1PL_1|2.5MB/s"
-    network: grpc
-    port: 443
-    server: 193.34.212.80.vhub.pro
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
-    xudp: true
-    servername: 193.34.212.80.vhub.pro
-  - name: "\U0001F1E9\U0001F1EADE_5|528KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 80.253.249.66
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: kfm-bn0.pages.dev
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_4|525KB/s"
-    network: ws
-    password: '1234567890'
-    port: 28017
-    server: 59.4.161.71
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/32.0.1700.107 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1F8\U0001F1ECSG_5|3.0MB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 178.128.209.190
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
-          Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_5|840KB/s"
-    network: ws
-    password: '1234567890'
-    port: 10002
-    server: 220.77.136.79
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
-          Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_16|6.3MB/s"
-    network: ws
-    port: 16632
-    server: planb.mojcn.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 302457f5-6848-4e2b-be16-193131ab6374
-    ws-opts:
-      headers:
-        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: ❓Other_1|1.4MB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3a4bc07b-ceaa-4deb-a7ad-0606359cfc0b
-    servername: navi.bankrate.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_6|634KB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: d0ba4ab1-c06c-47b4-9b9c-ec99d1e1aec8
-    servername: navi.bankrate.com
-  - name: "\U0001F1E9\U0001F1EADE_6|548KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 144.31.116.8
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: kfm-bn0.pages.dev
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_7|1.1MB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 64.188.105.7
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Linux; Android 7.0; SM-J730GM Build/NRD90M)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile
-          Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - client-fingerprint: chrome
-    name: "\U0001F1F3\U0001F1F1NL_2|1.8MB/s"
-    port: 443
-    reality-opts:
-      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
-      short-id: '11e2'
-    server: 216.57.105.74
-    skip-cert-verify: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
-    network: tcp
-    servername: yahoo.com
-  - name: "\U0001F1E9\U0001F1EADE_8|2.0MB/s"
-    network: ws
-    password: '1234567890'
-    port: 8443
-    server: 95.164.123.131
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: kfm-bn0.pages.dev
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_17|4.4MB/s"
-    network: ws
-    port: 16622
+    port: 16616
     server: t.cnmjcn.cyou
     skip-cert-verify: false
     tls: false
     type: vmess
     udp: true
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
+    uuid: 7927975e-9616-412b-b508-983ab960377d
     ws-opts:
       headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
       path: /
     xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_18|3.7MB/s"
-    network: ws
-    port: 16622
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    ws-opts:
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_6|2.0MB/s"
-    network: ws
-    password: '1234567890'
-    port: 10995
-    server: 220.122.42.198
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/47.0.2526.106 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_7|622KB/s"
-    network: ws
-    password: '1234567890'
-    port: 10000
-    server: 220.84.186.84
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/51.0.2704.106 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - name: "\U0001F1E9\U0001F1EADE_9|685KB/s"
-    network: ws
-    password: '1234567890'
-    port: 8443
-    server: 185.170.153.115
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        Host: kfm-bn0.pages.dev
-      path: /
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_10|934KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 143.20.160.200
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
   - alterId: 0
     cipher: auto
     name: "\U0001F1ED\U0001F1F0HK_19|2.6MB/s"
@@ -1177,11 +539,67 @@ proxies:
         Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
       path: /
     xudp: true
+  - name: "\U0001F1EB\U0001F1F7FR_2|2.0MB/s"
+    password: dongtaiwang.com
+    port: 40022
+    server: 163.172.113.118
+    skip-cert-verify: true
+    sni: www.microsoft.com
+    tfo: false
+    type: hysteria2
   - alterId: 0
     cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_20|2.5MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_4|2.2MB/s"
     network: ws
-    port: 16632
+    port: 16618
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 302457f5-6848-4e2b-be16-193131ab6374
+    ws-opts:
+      headers:
+        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0HK_20|2.4MB/s"
+    network: ws
+    port: 16622
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 881da2de-238e-425e-a7e7-389f4842e545
+    ws-opts:
+      headers:
+        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_5|5.2MB/s"
+    network: ws
+    port: 16618
+    server: planb.mojcn.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 881da2de-238e-425e-a7e7-389f4842e545
+    ws-opts:
+      headers:
+        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EF\U0001F1F5JP_2|4.2MB/s"
+    network: ws
+    port: 16617
     server: t.cnmjcn.cyou
     skip-cert-verify: false
     tls: false
@@ -1195,49 +613,10 @@ proxies:
     xudp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_12|3.6MB/s"
+    name: "\U0001F1F9\U0001F1FCTW_7|1.6MB/s"
     network: ws
     port: 16616
     server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 302457f5-6848-4e2b-be16-193131ab6374
-    ws-opts:
-      headers:
-        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_7|4.8MB/s"
-    network: ws
-    port: 16617
-    server: planb.mojcn.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 302457f5-6848-4e2b-be16-193131ab6374
-    ws-opts:
-      headers:
-        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - name: ❓Other_2|3.0MB/s
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-us-001.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-us-001.fastervpn.world
-    type: hysteria2
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_8|3.4MB/s"
-    network: ws
-    port: 16617
-    server: planb.mojcn.com
     skip-cert-verify: false
     tls: false
     type: vmess
@@ -1246,75 +625,41 @@ proxies:
     ws-opts:
       headers:
         Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alpn:
+      - h3
+    auth-str: dongtaiwang.com
+    auth_str: dongtaiwang.com
+    down: '1000'
+    name: "\U0001F1E9\U0001F1EADE_2|2.4MB/s"
+    port: 54177
+    protocol: udp
+    server: 5.83.129.90
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: '500'
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F8\U0001F1ECSG_6|3.5MB/s"
+    network: ws
+    port: 16618
+    server: planb.mojcn.com
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 7927975e-9616-412b-b508-983ab960377d
+    ws-opts:
+      headers:
+        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
       path: /
     xudp: true
   - alterId: 0
     cipher: auto
     name: "\U0001F1ED\U0001F1F0HK_21|2.5MB/s"
-    network: ws
-    port: 16632
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    ws-opts:
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_13|3.1MB/s"
-    network: ws
-    port: 16616
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    ws-opts:
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_6|2.5MB/s"
-    network: ws
-    port: 16618
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 302457f5-6848-4e2b-be16-193131ab6374
-    ws-opts:
-      headers:
-        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F8\U0001F1ECSG_7|2.4MB/s"
-    network: ws
-    port: 16618
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 302457f5-6848-4e2b-be16-193131ab6374
-    ws-opts:
-      headers:
-        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_22|2.1MB/s"
     network: ws
     port: 16622
     server: m.cnmjin.net
@@ -1328,191 +673,25 @@ proxies:
         Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
       path: /
     xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_23|572KB/s"
-    network: ws
-    port: 16632
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7927975e-9616-412b-b508-983ab960377d
-    ws-opts:
-      headers:
-        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1EF\U0001F1F5JP_9|823KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  - client-fingerprint: chrome
+    name: "\U0001F1F3\U0001F1F1NL_1|1.7MB/s"
     port: 443
-    server: vpn-jp-011.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-011.fastervpn.world
-    type: hysteria2
-    up: ''
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_14|3.3MB/s"
-    network: ws
-    port: 16616
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7927975e-9616-412b-b508-983ab960377d
-    ws-opts:
-      headers:
-        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1EF\U0001F1F5JP_10|3.2MB/s"
-    network: ws
-    port: 16617
-    server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7927975e-9616-412b-b508-983ab960377d
-    ws-opts:
-      headers:
-        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1F7\U0001F1FARU_2|1.1MB/s"
-    network: tcp
-    port: 2053
-    server: node-us.connectsuite.org
+    reality-opts:
+      public-key: A1OvYDljz8ZJr7_1xe4j2H1AHsMuYEKifyjdWhdybzk
+      short-id: '11e2'
+    server: 216.57.105.74
     skip-cert-verify: false
     tls: true
-    type: vmess
+    type: vless
     udp: true
-    uuid: 9b91e960-f8f7-41aa-ac67-f5c7b6b72e74
-    xudp: true
-    servername: node-us.connectsuite.org
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_15|2.1MB/s"
-    network: ws
-    port: 16616
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7927975e-9616-412b-b508-983ab960377d
-    ws-opts:
-      headers:
-        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_8|584KB/s"
-    network: ws
-    password: '1234567890'
-    port: 13486
-    server: 220.122.15.78
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1FCTW_16|3.3MB/s"
-    password: a9a0d092-6f0e-4701-81ee-454643d6d506
-    port: 50099
-    server: r3mrcg0011499tl.cybervena.com
-    type: ss
-    udp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_17|3.3MB/s"
-    network: ws
-    port: 16616
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 302457f5-6848-4e2b-be16-193131ab6374
-    ws-opts:
-      headers:
-        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_9|791KB/s"
-    network: ws
-    password: '1234567890'
-    port: 23424
-    server: 220.125.240.77
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/49.0.2623.112 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - cipher: aes-128-gcm
-    name: "\U0001F1EC\U0001F1E7GB_5|1.2MB/s"
-    password: JVrsLLN1tkN8oXZO
-    port: 13223
-    server: chengbai02.ascwt179.com
-    type: ss
-    udp: true
-  - client-fingerprint: chrome
-    name: "\U0001F1EB\U0001F1EEFI_1|839KB/s"
-    network: ws
-    password: '1234567890'
-    port: 443
-    server: 92.246.137.150
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-      path: /
-  - down: ''
-    fingerprint: ''
-    name: "\U0001F1ED\U0001F1F0HK_24|589KB/s"
-    obfs: ''
-    obfs-password: ''
-    password: 3286b74d-a633-401f-8e22-6e8e61c5f1d9
-    port: 5555
-    server: 45.192.195.52
-    skip-cert-verify: true
-    sni: ''
-    type: hysteria2
-    up: ''
-    disable-sni: true
+    uuid: 73c0a723-c0ab-4ad8-8f25-799b9bd54e36
+    network: tcp
+    servername: yahoo.com
   - http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1F8\U0001F1ECSG_8|2.0MB/s"
+    name: "\U0001F1F8\U0001F1ECSG_7|1.4MB/s"
     network: tcp
     port: 443
     server: srv2.towersflowerss.com
@@ -1522,23 +701,7 @@ proxies:
     xudp: true
   - alterId: 0
     cipher: auto
-    name: "\U0001F1F9\U0001F1FCTW_18|1.9MB/s"
-    network: ws
-    port: 16616
-    server: m.cnmjin.net
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 881da2de-238e-425e-a7e7-389f4842e545
-    ws-opts:
-      headers:
-        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: 0
-    cipher: auto
-    name: "\U0001F1FA\U0001F1F8US_13|2.7MB/s"
+    name: "\U0001F1FA\U0001F1F8US_6|2.6MB/s"
     network: ws
     port: 16648
     server: t.cnmjcn.cyou
@@ -1552,100 +715,167 @@ proxies:
         Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
       path: /
     xudp: true
-  - auth: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_14|2.7MB/s"
-    password: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    port: 30004
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
+  - alpn:
+      - h2
+    client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: /sequre/grpc/
+    name: "\U0001F1F5\U0001F1F1PL_1|1.7MB/s"
+    network: grpc
+    port: 443
+    server: 193.34.212.80.vhub.pro
+    tls: true
+    type: vless
     udp: true
-    up: 5000
-  - auth: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_15|2.3MB/s"
-    password: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    port: 30006
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_16|2.8MB/s"
-    password: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    port: 30005
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_17|2.9MB/s"
-    password: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    port: 30005
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_18|516KB/s"
-    password: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    port: 30003
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_19|749KB/s"
-    password: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    port: 30004
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    down: 5000
-    name: "\U0001F1EF\U0001F1F5JP_11|2.1MB/s"
-    password: 965ee5f1-6455-4c2f-861f-30725f0da5f3
-    port: 30002
-    server: hy2.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    down: 5000
-    name: "\U0001F1EF\U0001F1F5JP_12|1.8MB/s"
-    password: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    port: 30002
-    server: hy2.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
+    uuid: 7c1d17f5-4f43-4f78-9505-d50c38efc40b
+    xudp: true
+    servername: 193.34.212.80.vhub.pro
   - alterId: 0
     cipher: auto
-    name: ❓Other_3|5.3MB/s
+    name: "\U0001F1ED\U0001F1F0HK_22|2.6MB/s"
     network: ws
-    port: 16618
-    server: planb.mojcn.com
+    port: 16632
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 7927975e-9616-412b-b508-983ab960377d
+    ws-opts:
+      headers:
+        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F7\U0001F1FARU_1|545KB/s"
+    network: ws
+    port: 8443
+    server: 31.130.149.85
+    tls: true
+    type: vless
+    udp: true
+    uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+    ws-opts:
+      headers:
+        Host: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+    xudp: true
+    servername: czvjaheuiweghruiwegfbldsafsdgaryreygnxvbhsfgretgreyhthsfgj.pages.dev
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 840
+    name: "\U0001F1FB\U0001F1F3VN_2|631KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.232
+    type: ss
+  - name: "\U0001F1FA\U0001F1F8US_7|2.9MB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-001.fastervpn.world
+    type: hysteria2
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_8|2.6MB/s"
+    network: ws
+    port: 16616
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 7927975e-9616-412b-b508-983ab960377d
+    ws-opts:
+      headers:
+        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_9|3.4MB/s"
+    network: ws
+    port: 16616
+    server: m.cnmjin.net
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: 302457f5-6848-4e2b-be16-193131ab6374
+    ws-opts:
+      headers:
+        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
+      path: /
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_8|2.0MB/s"
+    port: 180
+    server: 82.198.246.233
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_9|1.4MB/s"
+    port: 180
+    server: 82.198.246.250
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_10|1.7MB/s"
+    port: 180
+    server: 82.198.246.37
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    network: tcp
+  - name: "\U0001F1FA\U0001F1F8US_11|1.8MB/s"
+    password: f8eca8df-a1a5-4918-a194-d34112a3673f
+    port: 443
+    server: u9node.cdn.mssstatic.com
+    tls: true
+    type: http
+    username: f8eca8df-a1a5-4918-a194-d34112a3673f
+    sni: u9node.cdn.mssstatic.com
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1EB\U0001F1F7FR_3|1.1MB/s"
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: nUl4-UbSlrf8sCY4QNCKF3dMmgWLWJbgeziVqwfklhU
+      short-id: "ad3c6641d540b4e1"
+    server: 51.158.62.94
+    tls: true
+    type: vless
+    udp: true
+    uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+    xudp: true
+    servername: www.laposte.fr
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_10|3.0MB/s"
+    network: ws
+    port: 16616
+    server: m.cnmjin.net
     skip-cert-verify: false
     tls: false
     type: vmess
@@ -1657,7 +887,341 @@ proxies:
       path: /
     xudp: true
   - client-fingerprint: chrome
-    name: "\U0001F1F8\U0001F1ECSG_9|652KB/s"
+    flow: xtls-rprx-vision
+    name: "\U0001F1E9\U0001F1EADE_3|722KB/s"
+    port: 9443
+    reality-opts:
+      public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+      short-id: "2344766a270a6298"
+    server: 159.195.82.187
+    tls: true
+    type: vless
+    uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+    network: tcp
+    servername: yahoo.com
+  - name: "\U0001F1F8\U0001F1ECSG_8|844KB/s"
+    network: ws
+    port: 65000
+    server: srv120.towersflowerss.com
+    type: vless
+    udp: true
+    uuid: 36d85d65-1b57-4cba-a2a6-f61131b08593
+    ws-opts:
+      headers:
+        Host: srv120.towersflowerss.com
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/57.0.2987.133 Safari/537.36
+      path: /
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision-udp443
+    http-opts:
+      headers: {}
+      path:
+        - /
+    name: "\U0001F1F5\U0001F1F1PL_2|2.1MB/s"
+    network: tcp
+    port: 52006
+    server: 178.72.181.87
+    tls: true
+    type: vless
+    udp: true
+    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    xudp: true
+    servername: cluster-de-2.firstvideocdn.ru
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_2|1.1MB/s"
+    network: ws
+    password: '1234567890'
+    port: 10250
+    server: 220.95.25.188
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_3|844KB/s"
+    network: ws
+    password: '1234567890'
+    port: 30017
+    server: 220.122.102.26
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_4|778KB/s"
+    network: ws
+    password: '1234567890'
+    port: 8443
+    server: 152.53.227.239
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.102 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_5|641KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 144.31.118.170
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: /
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1F7\U0001F1FARU_2|749KB/s"
+    network: tcp
+    port: 2053
+    server: node-us.connectsuite.org
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 9b91e960-f8f7-41aa-ac67-f5c7b6b72e74
+    xudp: true
+    servername: node-us.connectsuite.org
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_4|1.0MB/s"
+    network: ws
+    password: '1234567890'
+    port: 22105
+    server: 59.26.177.217
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_6|634KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 148.253.208.19
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - name: "\U0001F1F0\U0001F1F7KR_5|2.1MB/s"
+    port: 1090
+    server: 121.169.46.116
+    type: socks5
+    udp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_6|1.5MB/s"
+    network: ws
+    password: '1234567890'
+    port: 28080
+    server: 220.79.203.64
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_7|541KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 138.124.32.78
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_7|616KB/s"
+    network: ws
+    password: '1234567890'
+    port: 10911
+    server: 220.77.136.79
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_8|555KB/s"
+    network: ws
+    password: '1234567890'
+    port: 11310
+    server: 222.113.18.214
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/70.0.3538.67 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - alterId: '0'
+    cipher: auto
+    name: "\U0001F1FA\U0001F1F8US_12|2.4MB/s"
+    network: tcp
+    port: 180
+    server: 82.198.246.9
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    udp: true
+    uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+    xudp: true
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_9|542KB/s"
+    network: ws
+    password: '1234567890'
+    port: 12300
+    server: 220.124.181.251
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/31.0.1650.57 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_10|698KB/s"
+    network: ws
+    password: '1234567890'
+    port: 18001
+    server: 220.78.7.17
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91
+          Mobile Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: chacha20-ietf
+    delay: 1767
+    name: "\U0001F1E9\U0001F1EADE_8|812KB/s"
+    obfs: tls1.2_ticket_auth
+    password: dongtaiwang.com
+    port: 33336
+    protocol: auth_chain_a
+    server: ssr2.762988.xyz
+    type: ssr
+    udp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 1510
+    name: "\U0001F1FB\U0001F1F3VN_3|823KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.234
+    type: ss
+  - client-fingerprint: firefox
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1F7TR_2|1.4MB/s"
+    port: 443
+    reality-opts:
+      public-key: LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic
+      short-id: "c410508e9721512b"
+    server: mouse2.1lil1.de
+    skip-cert-verify: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c
+    network: tcp
+    servername: www.stackoverflow.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_9|1.8MB/s"
+    network: ws
+    password: '1234567890'
+    port: 8443
+    server: 144.31.62.181
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/48.0.2564.109 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_10|673KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 138.124.32.0
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_9|2.6MB/s"
     network: ws
     password: '8r<[9''l6hAO#8ZQi'
     port: 443
@@ -1672,195 +1236,9 @@ proxies:
           Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/61.0.3163.100 Safari/537.36
       path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - alterId: 0
-    cipher: auto
-    name: ❓Other_4|3.3MB/s
-    network: ws
-    port: 16618
-    server: planb.mojcn.com
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 7927975e-9616-412b-b508-983ab960377d
-    ws-opts:
-      headers:
-        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - auth: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    name: "\U0001F1EF\U0001F1F5JP_13|4.3MB/s"
-    password: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    port: 30002
-    server: hy2.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    name: "\U0001F1EF\U0001F1F5JP_14|3.7MB/s"
-    password: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    port: 30002
-    server: hy2.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    name: "\U0001F1FA\U0001F1F8US_20|2.5MB/s"
-    password: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    port: 30004
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
-    udp: true
-  - auth: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    name: "\U0001F1FA\U0001F1F8US_21|2.9MB/s"
-    password: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    port: 30003
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    down: 5000
-    name: "\U0001F1FA\U0001F1F8US_22|2.9MB/s"
-    password: b34e59cb-c0ae-4b0b-b1e2-9c8717a7d949
-    port: 30006
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-    up: 5000
-  - auth: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    name: "\U0001F1FA\U0001F1F8US_23|2.3MB/s"
-    password: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    port: 30006
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    name: "\U0001F1FA\U0001F1F8US_24|2.5MB/s"
-    password: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    port: 30003
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    ech-opts:
-      enable: true
-      query-server-name: encryptedsni.com
-    name: "\U0001F1F8\U0001F1ECSG_10|3.3MB/s"
-    network: ws
-    port: 443
-    server: 103.26.8.38
-    skip-cert-verify: false
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: s3vz.user-service.chinav.indevs.in
-      path: /danfeng
-      early-data-header-name: Sec-WebSocket-Protocol
-      max-early-data: 2560
-    servername: s3vz.user-service.chinav.indevs.in
-  - client-fingerprint: chrome
-    name: "\U0001F1F0\U0001F1F7KR_10|737KB/s"
-    network: ws
-    password: '1234567890'
-    port: 19999
-    server: 220.85.254.226
-    skip-cert-verify: false
-    sni: kfm-bn0.pages.dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
-  - client-fingerprint: chrome
-    name: "\U0001F1E9\U0001F1EADE_11|990KB/s"
-    network: ws
-    password: '8r<[9''l6hAO#8ZQi'
-    port: 443
-    server: 65.21.179.149
-    skip-cert-verify: true
-    sni: Koma-YT.PAGeS.Dev
-    type: trojan
-    udp: true
-    ws-opts:
-      headers:
-        User-Agent: >-
-          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_15|2.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: 81c33f9b-1a8a-448f-94c3-95ac664d3cf6
-    servername: navi.bankrate.com
-  - client-fingerprint: chrome
-    name: ❓Other_5|1.9MB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: c6569d20-f195-4348-a38b-5f808ddd32b1
-    servername: navi.bankrate.com
-  - client-fingerprint: chrome
-    name: ❓Other_6|1.0MB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: 27423bff-4169-4515-b502-0d76072e8556
-    servername: navi.bankrate.com
-  - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_16|2.0MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: c6197c35-d7cf-4448-92f8-42d0337773f8
-    servername: navi.bankrate.com
   - client-fingerprint: chrome
     encryption: none
-    name: ❓Other_7|1.4MB/s
+    name: "\U0001F1FA\U0001F1F8US_13|879KB/s"
     network: ws
     port: 443
     server: 172.64.149.54
@@ -1877,198 +1255,1315 @@ proxies:
       path: /
     xudp: true
     servername: 2026.hhhhh.eu.org
-  - auth: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    name: "\U0001F1FA\U0001F1F8US_25|2.6MB/s"
-    password: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    port: 30004
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: false
-    sni: us1.cloudsegl1.ccwu.cc
-    type: hysteria2
-    udp: true
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_17|1.4MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: ea4b0dbf-8d33-4870-99a2-d6e5c5fa9b79
-    servername: navi.bankrate.com
-  - alterId: '0'
-    cipher: auto
-    name: "\U0001F1ED\U0001F1F0HK_25|3.3MB/s"
+    name: "\U0001F1E9\U0001F1EADE_11|968KB/s"
     network: ws
-    port: 16622
-    server: planb.mojcn.com
+    password: '1234567890'
+    port: 443
+    server: 103.109.234.64
     skip-cert-verify: false
-    tls: false
-    type: vmess
+    sni: kfm-bn0.pages.dev
+    type: trojan
     udp: true
-    uuid: 7927975e-9616-412b-b508-983ab960377d
     ws-opts:
       headers:
-        Host: 8597cd680dc75db1c8ac6d9942dcf0e6.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - cipher: chacha20-ietf-poly1305
-    name: "\U0001F1F9\U0001F1EDTH_1|1022KB/s"
-    password: IcHhucIWiJhfleKaB7n_aw
-    port: 65443
-    server: 141.98.17.63
-    type: ss
-    udp: true
-  - auth: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    name: "\U0001F1FA\U0001F1F8US_26|3.4MB/s"
-    password: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    port: 30006
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - auth: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    name: "\U0001F1FA\U0001F1F8US_27|3.3MB/s"
-    password: 85a88e29-2198-4283-bc9d-7c58e20fd119
-    port: 30005
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    name: ❓Other_8|1.5MB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
-    tls: true
-    type: vless
-    udp: true
-    uuid: 7e681d5a-c145-48d0-a208-1a4410ed35ea
-    servername: navi.bankrate.com
-  - auth: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    name: "\U0001F1FA\U0001F1F8US_28|2.6MB/s"
-    password: b87f05d9-4de4-4332-bd6d-5543443e53a8
-    port: 30005
-    server: us1.cloudsegl1.ccwu.cc
-    skip-cert-verify: true
-    sni: www.iq.com
-    type: hysteria2
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    http-opts:
-      headers: {}
-      path:
-        - /
-    name: "\U0001F1F3\U0001F1F1NL_3|1.1MB/s"
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: e04qlMREgpP2TmLJ0kzf4tYjnuBMT87k0RuQebPe2Bg
-      short-id: "6ba85179e30d4fc2"
-    server: 78.17.57.159
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4ccff2bb-b761-40f0-95ec-a58b38862dab
-    xudp: true
-    servername: stats.vk-portal.net
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1FA\U0001F1F8US_29|538KB/s"
-    network: ws
-    port: 2087
-    server: 8.35.211.68
-    tls: true
-    type: vless
-    udp: true
-    uuid: 52f94104-7a84-4342-8bcd-96969eb46cbe
-    ws-opts:
-      headers:
-        Host: tristandeng.cc.cd
         User-Agent: >-
           Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-          Gecko) Chrome/41.0.2272.76 Safari/537.36
+          Gecko) Chrome/46.0.2490.80 Safari/537.36
       path: /
-    xudp: true
-    servername: tristandeng.cc.cd
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision-udp443
+    name: "\U0001F1F8\U0001F1ECSG_10|949KB/s"
+    network: ws
+    password: '1234567890'
+    port: 27918
+    server: 220.84.174.109
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 818
+    name: "\U0001F1FB\U0001F1F3VN_4|1.0MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.216
+    type: ss
+  - alterId: 0
+    cipher: auto
+    country: "\U0001F1E8\U0001F1F3CN"
+    delay: 334
+    h2-opts: {}
+    http-opts: {}
+    name: "\U0001F1ED\U0001F1F0HK_23|5.0MB/s"
+    network: ws
+    port: 20010
+    server: 76c3.earthdraft.onezz.top
+    skip-cert-verify: true
+    type: vmess
+    uuid: 7d81d7ed-03f4-331a-ab0d-e9a7425f05e0
+    ws-opts:
+      headers:
+        HOST: ithome.com
+        Host: 76c3.earthdraft.onezz.top
+      path: /chat
+    servername: ithome.com
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_12|802KB/s"
+    network: ws
+    password: '1234567890'
+    port: 443
+    server: 45.144.55.148
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.90 Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_11|4.3MB/s"
+    network: ws
+    port: 16616
+    server: planb.mojcn.com
+    type: vmess
+    uuid: 881da2de-238e-425e-a7e7-389f4842e545
+    ws-opts:
+      headers:
+        Host: ba1b944c9237d79489431c3a8912f6f9.mobgslb.tbcache.com
+      path: /
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 940
+    name: "\U0001F1FB\U0001F1F3VN_5|1.3MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.56
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 921
+    name: "\U0001F1FB\U0001F1F3VN_6|790KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.226
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 2166
+    name: "\U0001F1FB\U0001F1F3VN_7|621KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.34
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 989
+    name: "\U0001F1FB\U0001F1F3VN_8|890KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.82
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 2309
+    name: "\U0001F1FB\U0001F1F3VN_9|1.3MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.48
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 1180
+    name: "\U0001F1FB\U0001F1F3VN_10|654KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.70
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    delay: 766
+    name: "\U0001F1FB\U0001F1F3VN_11|699KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.76
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 557
+    name: "\U0001F1FB\U0001F1F3VN_12|900KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.60
+    type: ss
+  - client-fingerprint: chrome
+    name: ❓Other_1|954KB/s
+    network: ws
+    password: '1234567890'
+    port: 33338
+    server: 220.79.9.247
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; A1601 Build/LMY47I)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile
+          Safari/537.36
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 514
+    name: "\U0001F1FB\U0001F1F3VN_13|538KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.143
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 2241
+    name: "\U0001F1FB\U0001F1F3VN_14|929KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.191
+    type: ss
+  - ech-opts:
+      enable: true
+      query-server-name: encryptedsni.com
+    name: "\U0001F1F0\U0001F1F7KR_11|3.6MB/s"
+    network: ws
+    port: 12300
+    server: 222.106.183.207
+    skip-cert-verify: false
+    tfo: false
+    tls: true
+    type: vless
+    udp: true
+    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    ws-opts:
+      early-data-header-name: Sec-WebSocket-Protocol
+      headers:
+        Host: ynwta9.api-edge.fgfw.qzz.io
+      max-early-data: 2560
+      path: /danfeng
+    servername: ynwta9.api-edge.fgfw.qzz.io
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 557
+    name: "\U0001F1FB\U0001F1F3VN_15|705KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.215
+    type: ss
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1F9\U0001F1FCTW_12|3.5MB/s"
+    network: ws
+    port: 16616
+    server: planb.mojcn.com
+    type: vmess
+    uuid: 302457f5-6848-4e2b-be16-193131ab6374
+    ws-opts:
+      headers:
+        Host: ba411337c4d2d5541e2607d665631571.mobgslb.tbcache.com
+      path: /
+  - encryption: none
+    name: "\U0001F1ED\U0001F1F0HK_24|3.8MB/s"
+    network: ws
+    port: 80
+    server: freeyx.cloudflare88.eu.org
+    type: vless
+    udp: true
+    uuid: 2399fe0a-b359-40a9-a3f0-b70c3c177a01
+    ws-opts:
+      headers:
+        Host: aa.beijng.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/68.0.3440.106 Safari/537.36
+      path: /
+      early-data-header-name: Sec-WebSocket-Protocol
+      max-early-data: 2048
+    xudp: true
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 559
+    name: "\U0001F1FB\U0001F1F3VN_16|697KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.79
+    type: ss
+  - name: "\U0001F1EF\U0001F1F5JP_3|668KB/s"
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-jp-010.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-jp-010.fastervpn.world
+    type: hysteria2
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_12|1.3MB/s"
+    network: ws
+    password: '1234567890'
+    port: 25565
+    server: 220.125.207.242
+    skip-cert-verify: false
+    sni: kfm-bn0.pages.dev
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: >-
+          Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+          like Gecko) Chrome/5.0.342.1 Safari/533.2
+      path: "/?ed=2560&https://t.me/WangCai2\U0001F1E8\U0001F1F3"
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 843
+    name: "\U0001F1FB\U0001F1F3VN_17|615KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.233
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_18|652KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.118
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_19|983KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.80
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_20|767KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.123
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_21|1.1MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.235
+    type: ss
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 708
+    name: "\U0001F1FB\U0001F1F3VN_22|547KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.134
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
     http-opts:
       headers: {}
       path:
         - /
-    name: "\U0001F1F5\U0001F1F1PL_2|1003KB/s"
+    name: "\U0001F1F1\U0001F1FBLV_1|1.4MB/s"
     network: tcp
-    port: 52006
-    server: 178.72.181.87
+    port: 40478
+    reality-opts:
+      public-key: lcJ0LSh015XRfz5-7wB_hln3-bq5ZatFgPugSUCrdR0
+      short-id: "3c"
+    server: 37.233.82.140
     tls: true
     type: vless
     udp: true
-    uuid: 75807638-6f19-2710-ae08-38492ee85c88
+    uuid: e977d854-33f3-4345-abee-bf3fa9a6d880
     xudp: true
-    servername: cluster-de-2.firstvideocdn.ru
+    servername: yahoo.com
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1ZZ"
+    delay: 574
+    name: "\U0001F1FB\U0001F1F3VN_23|603KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.67
+    type: ss
+  - cipher: chacha20-ietf-poly1305
+    name: "\U0001F1F9\U0001F1FCTW_13|1.8MB/s"
+    password: 7b56aeaa-8e2d-4bdf-b1d7-233ecca15f56
+    port: 50099
+    server: r3mrcg0011499tl.cybervena.com
+    type: ss
+    udp: true
   - client-fingerprint: chrome
-    name: ❓Other_9|646KB/s
+    encryption: none
+    flow: xtls-rprx-vision
+    name: ❓Other_2|1.1MB/s
     network: tcp
     port: 443
     reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
+      public-key: QbZBeFzqbP3XfrldMaIkdu-tr91zqBUIQ-WIkXM2p14
+      short-id: "96e03e0f184639ef"
+    server: 154.93.37.237
     tls: true
     type: vless
     udp: true
-    uuid: 157b50cf-86a3-47fb-9d02-5ee2687ac89b
-    servername: navi.bankrate.com
+    uuid: 2e1add4a64494887bd4b2a3a211e58e6
+    xudp: true
+    servername: www.asus.com
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_18|845KB/s"
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_13|1.7MB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - cipher: aes-256-cfb
+    country: "\U0001F3C1 ZZ"
+    delay: 936
+    name: "\U0001F1FB\U0001F1F3VN_24|836KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.239
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1E8\U0001F1FECY_1|1.2MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
+      public-key: 0T96I8dvAUF7BxhbwTp0PfFfy9AHFDsXXpwDnP0i224
+      short-id: "4dd1"
+    server: 45.12.133.207
     tls: true
     type: vless
     udp: true
-    uuid: 5e7ca46b-ed12-49b1-9cdd-d316251381dc
-    servername: navi.bankrate.com
+    uuid: 1235d730-707c-4a11-8ce3-ebb17561564b
+    xudp: true
+    servername: yahoo.com
+  - name: "\U0001F1FA\U0001F1F8US_14|2.8MB/s"
+    network: ws
+    port: 80
+    server: 108.162.198.68
+    type: vless
+    udp: true
+    uuid: ede7605e-b6ce-4154-b51a-d58df0b737dd
+    ws-opts:
+      headers:
+        Host: broken-wood-c503.amiralinorozjam.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2272.104 Safari/537.36
+      path: >-
+        /eyJqdW5rIjoiaDlhbnZpdlZHNEJ2MnlHIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_25|690KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.222
+    type: ss
+  - name: "\U0001F1E9\U0001F1EADE_14|1.4MB/s"
+    network: ws
+    port: 80
+    server: 162.159.160.117
+    type: vless
+    udp: true
+    uuid: ede7605e-b6ce-4154-b51a-d58df0b737dd
+    ws-opts:
+      headers:
+        Host: broken-wood-c503.amiralinorozjam.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.99 Safari/537.36
+      path: >-
+        /eyJqdW5rIjoiR05OSGljcG00NkVaIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ%3D%3D
+    xudp: true
+  - name: "\U0001F1E9\U0001F1EADE_15|2.2MB/s"
+    network: ws
+    port: 80
+    server: 162.159.160.219
+    type: vless
+    udp: true
+    uuid: ede7605e-b6ce-4154-b51a-d58df0b737dd
+    ws-opts:
+      headers:
+        Host: broken-wood-c503.amiralinorozjam.workers.dev
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: >-
+        /eyJqdW5rIjoiQWhVdnZiZHZDOEI3akw1QSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
+    xudp: true
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_26|823KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.84
+    type: ss
+  - name: ❓Other_3|7.5MB/s
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-jp-001.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-jp-001.fastervpn.world
+    type: hysteria2
+  - name: ❓Other_4|2.0MB/s
+    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+    port: 443
+    server: vpn-us-006.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-us-006.fastervpn.world
+    type: hysteria2
+  - name: "\U0001F1F8\U0001F1EASE_1|2.1MB/s"
+    network: ws
+    password: '8r<[9''l6hAO#8ZQi'
+    port: 443
+    server: 185.239.142.215
+    skip-cert-verify: true
+    sni: Koma-YT.PAGeS.Dev
+    type: trojan
+    ws-opts:
+      headers:
+        Host: Koma-YT.PAGeS.Dev
+      path: "/trTelegram\U0001F1E8\U0001F1F3 @WangCai2"
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_27|860KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.193
+    type: ss
   - client-fingerprint: chrome
-    name: ❓Other_10|1.4MB/s
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_16|839KB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/52.0.2743.116 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_17|638KB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_28|967KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.155.107
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_18|943KB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_19|1.9MB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+          (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_20|2.0MB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_21|533KB/s"
+    network: ws
+    port: 443
+    server: 192.46.239.68
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_3|737KB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_4|695KB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+          (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_29|919KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.232
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_30|1.2MB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.230
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_4|3.7MB/s"
+    network: ws
+    port: 31053
+    server: 47.91.29.134
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_5|1.3MB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.102 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_31|663KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.157
+    type: ss
+  - cipher: aes-256-cfb
+    name: "\U0001F1FB\U0001F1F3VN_32|785KB/s"
+    password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+    port: 38388
+    server: 103.186.154.145
+    type: ss
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_8|742KB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_6|1.3MB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/49.0.2623.110 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1EF\U0001F1F5JP_5|3.2MB/s"
+    network: ws
+    port: 33293
+    server: 47.74.33.96
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/46.0.2490.86 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F7\U0001F1FARU_7|1.4MB/s"
+    network: ws
+    port: 443
+    server: 185.22.173.79
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_2|2.1MB/s"
+    network: ws
+    port: 443
+    server: 109.120.142.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1FA\U0001F1F8US_15|707KB/s"
+    network: ws
+    port: 443
+    server: 167.99.49.60
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/46.0.2490.71 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_3|1023KB/s"
+    network: ws
+    port: 8443
+    server: 89.110.112.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_4|1.3MB/s"
+    network: ws
+    port: 8443
+    server: 89.110.112.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: firefox
+    name: "\U0001F1EB\U0001F1F7FR_4|2.1MB/s"
     network: tcp
     port: 443
     reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
+      public-key: fXdtB8vImCUJMQBLcCNK7p1v3rVzx6HllaDLk8Vc4EU
+      short-id: "239dcd11"
+    server: 57.128.81.193
     tls: true
     type: vless
     udp: true
-    uuid: fb61b8da-6030-4fa3-a3c0-f6db246f24d7
-    servername: navi.bankrate.com
+    uuid: 53821f3c-5b03-456a-89f3-f8379f130752
+    xudp: true
+    servername: www.samsung.com
   - client-fingerprint: chrome
-    name: "\U0001F1EF\U0001F1F5JP_19|943KB/s"
-    network: tcp
+    name: "\U0001F1ED\U0001F1F0HK_25|3.1MB/s"
+    network: ws
     port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
+    server: 91.193.58.154
     tls: true
     type: vless
     udp: true
-    uuid: 8ea59e73-7a6c-4a4a-8e8d-002d90a30c11
-    servername: navi.bankrate.com
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: sni.111000.v6.rocks
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+          Chrome/12.0.742.100 Safari/534.30
+      path: /%3Fed%3D2560%26https%3A//t.me/WangCai2%F0%9F%87%A8%F0%9F%87%B3
+    xudp: true
+    servername: sni.111000.v6.rocks
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_16|2.9MB/s"
+    network: ws
+    port: 10101
+    server: 45.139.193.223
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; Moto C Build/NRD90M.059)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_22|1.4MB/s"
+    network: ws
+    port: 48487
+    server: 176.96.137.104
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/42.0.2311.135 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1E9\U0001F1EADE_23|1.3MB/s"
+    network: ws
+    port: 19128
+    server: 213.179.69.128
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/65.0.3325.181 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_7|641KB/s"
+    network: ws
+    port: 443
+    server: 185.36.143.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_24|2.0MB/s"
+    network: ws
+    port: 443
+    server: 185.36.143.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
+          AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/59.0.3071.125 Mobile Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_5|2.0MB/s"
+    network: ws
+    port: 443
+    server: 188.253.24.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+          (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_6|899KB/s"
+    network: ws
+    port: 443
+    server: 188.253.24.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_8|610KB/s"
+    network: ws
+    port: 443
+    server: 188.253.24.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/69.0.3497.100 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_9|2.4MB/s"
+    network: ws
+    port: 8443
+    server: 89.110.112.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_10|838KB/s"
+    network: ws
+    port: 8443
+    server: 89.110.112.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_11|926KB/s"
+    network: ws
+    port: 443
+    server: 109.120.142.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/56.0.2924.87 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1E9\U0001F1EADE_25|2.1MB/s"
+    network: ws
+    port: 443
+    server: 185.36.143.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/41.0.2272.76 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_12|691KB/s"
+    network: ws
+    port: 8443
+    server: 89.110.112.154
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/41.0.2228.0 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_13|1.8MB/s"
+    network: ws
+    port: 443
+    server: 109.120.142.21
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile
+          Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1F8\U0001F1ECSG_11|2.3MB/s"
+    network: ws
+    port: 33284
+    server: 8.219.2.255
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/65.0.3325.181 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_14|873KB/s"
+    network: ws
+    port: 443
+    server: 185.36.143.175
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/68.0.3440.106 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_17|2.5MB/s"
+    network: ws
+    port: 55318
+    server: 67.230.167.14
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/44.0.2403.157 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    encryption: none
+    name: "\U0001F1F3\U0001F1F1NL_15|1.1MB/s"
+    network: ws
+    port: 443
+    server: 188.253.24.71
+    tls: true
+    type: vless
+    udp: true
+    uuid: >-
+      Telegram%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525A8%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525F0%252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525259F%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252587%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525B3%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252520%2525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252540WangCai2
+    ws-opts:
+      headers:
+        Host: cf.afrcloudnet1.dpdns.org
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/67.0.3396.87 Safari/537.36
+      path: "/?ed=2560&Telegram\U0001F1E8\U0001F1F3 @WangCai2"
+    xudp: true
+    servername: cf.afrcloudnet1.dpdns.org
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_18|1.1MB/s"
+    network: ws
+    port: 55317
+    server: 67.230.167.14
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/51.0.2704.106 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1FA\U0001F1F8US_19|1.1MB/s"
+    network: ws
+    port: 10101
+    server: 69.63.218.168
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+          wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0
+          Chrome/62.0.3202.84 Mobile Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
   - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
@@ -2076,51 +2571,91 @@ proxies:
       headers: {}
       path:
         - /
-    name: "\U0001F1F3\U0001F1F1NL_4|1.4MB/s"
+    name: "\U0001F1E8\U0001F1EDCH_1|852KB/s"
     network: tcp
-    port: 443
+    port: 16558
     reality-opts:
-      public-key: 7DBnPhcXc7B8dErqp5XK9JAym1GfFtTXSb1Ic53CX3g
-      short-id: "0fda"
-    server: 78.17.45.142
+      public-key: vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4
+      short-id: "0a856e071790b1"
+    server: 138.124.9.190
     tls: true
     type: vless
     udp: true
-    uuid: ae304f4e-20d2-4fee-b55a-c37c14c1eaa0
+    uuid: 11348c0f-b646-446a-bad7-b2b39c6de767
     xudp: true
-    servername: www.amd.com
+    servername: gpuopen.com
   - client-fingerprint: chrome
-    name: ❓Other_11|1.2MB/s
-    network: tcp
-    port: 443
-    reality-opts:
-      public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
-      short-id: "2da72ce6"
-    server: 176.97.73.155
+    name: "\U0001F1F0\U0001F1F7KR_13|1.3MB/s"
+    network: ws
+    port: 35491
+    server: 121.179.3.58
     tls: true
     type: vless
     udp: true
-    uuid: b9b63c49-31ae-4033-bbfc-e87ed9e6c333
-    servername: navi.bankrate.com
-  - client-fingerprint: chrome
-    encryption: none
-    name: "\U0001F1EC\U0001F1E7GB_6|2.3MB/s"
-    network: xhttp
-    port: 2053
-    server: 188.114.97.3
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4dc0b42a-1a8a-4337-851b-5d8a1f149fca
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/68.0.3440.106 Safari/537.36
+      path: /%40Marisa_kristi
     xudp: true
-    servername: eng.worldwidesuccesscatalysts.com
-  - name: ❓Other_12|5.0MB/s
-    password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-    port: 443
-    server: vpn-jp-002.fastervpn.world
-    skip-cert-verify: true
-    sni: vpn-jp-002.fastervpn.world
-    type: hysteria2
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1EC\U0001F1E7GB_5|2.1MB/s"
+    network: ws
+    port: 10443
+    server: 85.121.48.31
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+          Chrome/70.0.3538.67 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_14|820KB/s"
+    network: ws
+    port: 31934
+    server: 211.184.99.67
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: ji52i2alvx8ntcpgjev.acg.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/64.0.3282.167 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: ji52i2alvx8ntcpgjev.acg.xx.kg
+  - client-fingerprint: chrome
+    name: "\U0001F1F0\U0001F1F7KR_15|3.1MB/s"
+    network: ws
+    port: 12292
+    server: 59.2.28.80
+    tls: true
+    type: vless
+    udp: true
+    uuid: 00000000-0000-4000-8000-000000000000
+    ws-opts:
+      headers:
+        Host: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      path: /%40Marisa_kristi
+    xudp: true
+    servername: egt0bxw23s9tw4imuffg-m.zrf.xx.kg
 proxy-groups:
   - name: "\U0001F680 节点选择"
     type: select
